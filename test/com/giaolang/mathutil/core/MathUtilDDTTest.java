@@ -16,28 +16,10 @@ import static com.giaolang.mathutil.core.MathUtil.*;
  */
 
 @RunWith(value = Parameterized.class)
-public class MathUtilDDTTest {
-    
-    //1. chuẩn bị bộ data, là mảng 2 chiều, 2 cột ứng với Expected và n
-    //                                      dòng ứng với các test case
-    
-    //mảng Object, số thì dùng Wrapper class - class gói các primitive
-    //Integer -> int, Long -> long
-    
+public class MathUtilDDTTest {  
     @Parameterized.Parameters
     public static Object[][] initData() {
-        //int a[] = {5, 10, 15, 20, 25}; //liệt kê các phần tử mảng cách nhau dấu phẩy
-        //int b[][] = {{1, 0}, {1, 1}, {2, 2}, {6, 3}, {24, 4}, {120, 5}, {720, 6}};
         
-//        int c[][] = {{1, 0}, 
-//                     {1, 1}, 
-//                     {2, 2}, 
-//                     {6, 3}, 
-//                     {24, 4}, 
-//                     {120, 5}, 
-//                     {720, 6}
-//                    };
-
         return new Integer[][] {{1, 0}, 
                                 {1, 1}, 
                                 {2, 2}, 
